@@ -45,6 +45,7 @@ public class DynamicRouteServiceImplByNacos {
             });
         } catch (NacosException e) {
             //todo 提醒:异常自行处理此处省略
+            e.printStackTrace();
         }
     }
 
